@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<title>Fundamentos de Telecomunicaciones</title>
+
+<style>
+/* Fondo general */ 
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor principal */
+.contenedor{
+    max-width: 420px;
+    background: rgba(255,255,255,0.95);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* Título */
+h1{
+    background: linear-gradient(90deg, #003366, #0056b3);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Botones del menú */
+button{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #1a1b1d, #434343);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Hover con animación */
+button:hover{
+    background: linear-gradient(90deg, #0056b3, #00c6ff);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Botón salir */
+.footer-buttons{
+    margin-top: 30px;
+}
+
+.footer-buttons button{
+    width: 50%;
+    background: linear-gradient(90deg, #8b0000, #ff0000);
+}
+
+.footer-buttons button:hover{
+    background: linear-gradient(90deg, #ff0000, #ff6b6b);
+}
+
+/* Imagen */
+img{
+    width: 100%;
+    max-width: 350px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>Menú Principal</h1>
+
+<button onclick="location.href='introcuccion.html'">1.1. Impacto de las Telecomunicaciones. </button>
+<button onclick="location.href='siscomunicacion.html'">1.2. Componentes. Emisor, Receptor, Medios,  </button>
+<button onclick="location.href='medio.html'">1.2.1 Códigos y Protocolos.</button>
+<button onclick="location.href='modulacion.html'">1.3. Señales y clasificación.  </button>
+<button onclick="location.href='tecnica.html'">1.3.1 Analógicas, digitales, eléctricas y ópticas. </button>
+<button onclick="location.href='modelo.html'">1.4. Modelo matemático de una señal.  </button>
+<button onclick="location.href='modelo.html'">1.4.1 Serie de Fourier. </button>
+
+<div class="footer-buttons">
+    <button onclick="location.href='telecomunicaciones.html'">Regresar al menú</button>
+</div>
+
+</div>
+
+
+</body>
+</html>
